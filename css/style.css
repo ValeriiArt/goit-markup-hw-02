@@ -1,0 +1,192 @@
+:root {
+  --blue-color: #2196f3;
+  --grey-color: #757575;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  color: #212121;
+}
+
+.item {
+  list-style-type: none;
+}
+.link {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+}
+.logo-hd {
+  color: #000;
+}
+.logo-col {
+  color: var(--blue-color);
+}
+.ft-logo {
+  color: #ffffff;
+}
+.btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-main {
+  color: #ffffff;
+  background: var(--blue-color);
+}
+.btn-main:hover,
+.btn-main:focus {
+  background-color: #fff;
+  color: var(--blue-color);
+}
+.btn-filter {
+  color: #212121;
+  background: #f5f4fa;
+}
+.btn-filter:focus,
+.btn-filter:hover {
+  color: #fff;
+  background: var(--blue-color);
+}
+.btn-active {
+  color: #fff;
+  background-color: var(--blue-color);
+}
+/* ---------------HEADER----------------- */
+
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.nav-link:hover,
+.nav-link:focus,
+.nav-cont-link:hover,
+.nav-cont-link:focus {
+  color: var(--blue-color);
+}
+.active {
+  color: var(--blue-color);
+}
+.nav-cont-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--grey-color);
+}
+
+/* -------------END.HEADER--------------- */
+/* ------------Section HERO-------------- */
+.hero {
+  background: #2f303a;
+}
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/* ----------End.Section HERO------------ */
+/* ----------Section features------------ */
+.features-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.features-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--grey-color);
+}
+/* --------End.Section features---------- */
+/* ---------Section our work -------------*/
+.our-work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/* ---------End.Section our work -------------*/
+/* ------------Section our team --------------*/
+.our-team {
+  background-color: #f5f4fa;
+}
+.our-team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.team-text {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--grey-color);
+}
+/* ---------End.Section our team -------------*/
+/* ----------------FOOTER-------------------- */
+.ft-color {
+  background-color: #2f303a;
+}
+.location {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.ft-contacts {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.ft-contacts:hover,
+.ft-contacts:focus {
+  color: var(--blue-color);
+}
+/* --------------End.FOOTER------------------ */
+/* ------------Page Portfolio---------------- */
+.category-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.category {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--grey-color);
+}
+/* ----------End. Page Portfolio------------- */
